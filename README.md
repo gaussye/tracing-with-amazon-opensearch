@@ -79,6 +79,7 @@ Goto your OpenSearch Domain -> Security configuration, add Access policy as belo
   ]
 }
 ```
+---
 Confiuge OpenSearch Domain Security Role. Goto OpenSearch Dashboard > Management > Security > Roles > Create role
 
 ***Name:***  
@@ -98,6 +99,7 @@ indices:admin/template/put
 ***Index permissions:***  
 indices_all, manage_aliases
 
+---
 
 Once Role is created，configure Mapped users。
 OpenSearch Dashboard > Management > Security > Roles > {Role name} > Mapped users
